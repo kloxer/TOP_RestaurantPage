@@ -1,0 +1,224 @@
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* 2. Remove default margin */
+  * {
+    margin: 0;
+  }
+  
+  body {
+    /* 3. Add accessible line-height */
+    line-height: 1.5;
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* 5. Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* 6. Inherit fonts for form controls */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* 7. Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /* 8. Improve line wrapping */
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+  ul {
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+  }
+/* SOLUTION */
+
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  
+
+body{
+background-color: #ffffff;
+padding-left: 60px;
+padding-right: 60px;
+font-family:  sans-serif;
+;}
+
+
+#content{
+    color:#1e1e1e;
+}
+
+header{
+    border-width: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* box-shadow: 0px 5px 0px rgb(0, 12, 90); */
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    box-shadow: 0 1px 0 #000;
+
+
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+button{
+    background-color: transparent;
+    color:black;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 6px;
+}
+
+.title{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.headline{
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+
+}
+.frontPageImage{
+    width: 100%;
+    border-style: solid;
+    border-color: rgb(0 0 0 /40%);
+}
+.message, .message-2{
+    text-align: center;
+}
+.message-2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hoursMSG{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hrsTable{
+    background-color: rgb(255, 255, 255);
+    border-color: #bfbfbf;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-collapse: collapse;
+
+}
+
+td{
+    border-style: solid;
+    border-color: rgb(194, 194, 194);
+    padding:10px 20px;
+}
+
+.footer{
+    margin-top: 50px;
+    box-shadow: 0 -2px 0 #000;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
