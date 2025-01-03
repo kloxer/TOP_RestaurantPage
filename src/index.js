@@ -1,9 +1,11 @@
 import "./styles.css";
 import { createHome } from "./home";
 import { createMenu } from "./menu";
+import { createAbout } from "./about";
 
+// createMenu();
 
-createHome(); //Main page
+// createHome(); //Main page
 const getHome = document.getElementById("home");
 getHome.addEventListener("click", ()=>{
     createHome();
@@ -13,8 +15,8 @@ getMenu.addEventListener("click", ()=>{
     createMenu();
 });
 
-const getAbout = document.getElementById("menu");
-getMenu.addEventListener("click", ()=>{
-    createMenu();
+const getAbout = document.getElementById("about");
+getAbout.addEventListener("click", ()=>{
+    createAbout();
 });
 

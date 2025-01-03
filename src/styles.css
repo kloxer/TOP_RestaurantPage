@@ -280,3 +280,14 @@ td{
     color: white;
     padding:5px 10px;
 }
+
+.potato{
+min-width: 400px;
+
+}
+
+.about{
+    background-color: rebeccapurple;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
