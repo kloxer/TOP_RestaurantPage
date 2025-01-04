@@ -157,6 +157,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
+    gap:22px;
 }
 
 
@@ -281,13 +282,14 @@ td{
     padding:5px 10px;
 }
 
-.potato{
-min-width: 400px;
+
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
 
 }
 
-.about{
-    background-color: rebeccapurple;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+.mission{
+    margin-top: 10px;
 }

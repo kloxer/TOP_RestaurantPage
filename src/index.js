@@ -3,9 +3,8 @@ import { createHome } from "./home";
 import { createMenu } from "./menu";
 import { createAbout } from "./about";
 
-// createMenu();
 
-// createHome(); //Main page
+createHome(); //Main page
 const getHome = document.getElementById("home");
 getHome.addEventListener("click", ()=>{
     createHome();
